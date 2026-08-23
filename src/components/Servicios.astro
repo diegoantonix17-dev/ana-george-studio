@@ -1,0 +1,23 @@
+---
+import { getCollection } from "astro:content";
+import { type Locale, t } from "../i18n/strings";
+import ServicioCategoria from "./ServicioCategoria.astro";
+
+interface Props {
+	locale: Locale;
+}
+
+const { locale } = Astro.props;
+
+const categorias = (await getCollection("servicios")).sort(
+	(a, b) => a.data.orden - b.data.orden,
+);
+---
+
+<section id="servicios" class="mx-auto max-w-[72rem] px-4 py-16">
+	<h2 class="font-display text-[1.75rem] leading-[1.2]">
+		{t(locale, "servicios.titulo")}
+	</h2>
+
+	{categorias.map((categoria) => <ServicioCategoria locale={locale} categoria={categoria} />)}
+</section>

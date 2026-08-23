@@ -1,0 +1,47 @@
+{
+	"categoria": { "es": "Más para tu ceja", "en": "More brow services" },
+	"orden": 2,
+	"fotos": ["cejas-proceso-tecnico.jpg", "secuencia-4-pasos-cejas.jpg"],
+	"items": [
+		{
+			"nombre": {
+				"es": "Ceja HD (diseño, henna, depilación, planchado)",
+				"en": "HD Brow (design, henna, waxing, brow lamination finish)"
+			},
+			"precio": 650
+		},
+		{
+			"nombre": {
+				"es": "Laminado (diseño, depilación, planchado)",
+				"en": "Brow Lamination (design, waxing, styling)"
+			},
+			"precio": 550
+		},
+		{ "nombre": { "es": "Planchado", "en": "Brow Styling" }, "precio": 250 },
+		{
+			"nombre": {
+				"es": "Depilación con cera (ceja y bigote)",
+				"en": "Waxing (brow and lip)"
+			},
+			"precio": 300
+		},
+		{
+			"nombre": {
+				"es": "Depilación con cera (solo ceja)",
+				"en": "Waxing (brow only)"
+			},
+			"precio": 250
+		},
+		{
+			"nombre": {
+				"es": "Henna (solo aplicación de pigmento)",
+				"en": "Henna (pigment application only)"
+			},
+			"precio": 400
+		},
+		{
+			"nombre": { "es": "Perfilado + depilación", "en": "Shaping + waxing" },
+			"precio": 350
+		}
+	]
+}

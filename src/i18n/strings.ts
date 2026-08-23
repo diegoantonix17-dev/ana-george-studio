@@ -27,6 +27,12 @@ export const strings = {
 		"notFound.title": "Página no encontrada",
 		"notFound.body": "La página que buscas no existe o cambió de dirección.",
 		"notFound.back": "Volver al inicio",
+		"servicios.titulo": "Servicios y precios",
+		"precio.servicio": "Servicio",
+		"precio.precio": "Precio",
+		"precio.setInicial": "Set inicial",
+		"precio.retoque": "Retoque",
+		"precio.moneda": "MXN",
 	},
 	en: {
 		"site.name": "Ana George Studio",
@@ -49,6 +55,12 @@ export const strings = {
 		"notFound.body":
 			"The page you are looking for does not exist or has moved.",
 		"notFound.back": "Back to home",
+		"servicios.titulo": "Services and pricing",
+		"precio.servicio": "Service",
+		"precio.precio": "Price",
+		"precio.setInicial": "Initial set",
+		"precio.retoque": "Touch-up",
+		"precio.moneda": "MXN",
 	},
 } as const;
 

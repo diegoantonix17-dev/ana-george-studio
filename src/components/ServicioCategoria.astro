@@ -1,0 +1,112 @@
+---
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+import { altFor } from "../i18n/photoAlts";
+import { type Locale, t } from "../i18n/strings";
+import WhatsAppButton from "./WhatsAppButton.astro";
+
+interface Props {
+	locale: Locale;
+	categoria: CollectionEntry<"servicios">;
+}
+
+const { locale, categoria } = Astro.props;
+const { categoria: nombre, fotos, items } = categoria.data;
+
+// Las fotos llegan como nombre de archivo; Astro necesita el módulo importado
+// para poder optimizarlas, así que se resuelven contra este glob eager.
+const photoModules = import.meta.glob<{ default: ImageMetadata }>(
+	"../assets/photos/*.{jpg,jpeg,png,webp}",
+	{ eager: true },
+);
+
+const photos = fotos.slice(0, 4).map((fileName) => {
+	const mod = photoModules[`../assets/photos/${fileName}`];
+	if (!mod) {
+		throw new Error(
+			`La foto "${fileName}" referenciada por ${categoria.id} no existe en src/assets/photos/`,
+		);
+	}
+	return { src: mod.default, alt: altFor(fileName, locale) };
+});
+
+// Formato fijo en-US para garantizar el separador de miles: "$3,300 MXN".
+const money = new Intl.NumberFormat("en-US");
+const formatPrice = (value: number) =>
+	`$${money.format(value)} ${t(locale, "precio.moneda")}`;
+
+const hasRetoque = items.some((item) => item.precioRetoque !== undefined);
+---
+
+<article class="mt-12 first:mt-0">
+	<h3 class="font-display text-[1.75rem] leading-[1.2]">{nombre[locale]}</h3>
+
+	<div class="mt-5 grid gap-8 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
+		<div>
+			<div class="overflow-x-auto rounded-lg bg-surface shadow-[0_4px_16px_rgba(31,58,61,0.08)]">
+				<table class="w-full border-collapse text-left">
+					<thead>
+						<tr class="border-b border-border">
+							<th scope="col" class="px-4 py-3 text-sm font-medium text-fg-muted">
+								{t(locale, "precio.servicio")}
+							</th>
+							<th scope="col" class="px-4 py-3 text-right text-sm font-medium text-fg-muted whitespace-nowrap">
+								{hasRetoque ? t(locale, "precio.setInicial") : t(locale, "precio.precio")}
+							</th>
+							{
+								hasRetoque && (
+									<th scope="col" class="px-4 py-3 text-right text-sm font-medium text-fg-muted whitespace-nowrap">
+										{t(locale, "precio.retoque")}
+									</th>
+								)
+							}
+						</tr>
+					</thead>
+					<tbody>
+						{
+							items.map((item) => (
+								<tr data-servicio-item="true" class="border-b border-border last:border-b-0">
+									<th scope="row" class="px-4 py-3 font-normal">
+										{item.nombre[locale]}
+										{item.notaAdicional && (
+											<span class="mt-1 block text-sm text-fg-muted">
+												{item.notaAdicional[locale]}
+											</span>
+										)}
+									</th>
+									<td class="px-4 py-3 text-right font-medium whitespace-nowrap">
+										{formatPrice(item.precio)}
+									</td>
+									{hasRetoque && (
+										<td class="px-4 py-3 text-right whitespace-nowrap">
+											{item.precioRetoque ? formatPrice(item.precioRetoque) : "—"}
+										</td>
+									)}
+								</tr>
+							))
+						}
+					</tbody>
+				</table>
+			</div>
+
+			<WhatsAppButton locale={locale} class="mt-6" />
+		</div>
+
+		{
+			photos.length > 0 && (
+				<div class="grid content-start gap-4 sm:grid-cols-2 lg:grid-cols-1">
+					{photos.map((photo) => (
+						<Image
+							src={photo.src}
+							alt={photo.alt}
+							widths={[400, 700]}
+							sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"
+							loading="lazy"
+							class="w-full rounded-lg shadow-[0_4px_16px_rgba(31,58,61,0.08)]"
+						/>
+					))}
+				</div>
+			)
+		}
+	</div>
+</article>

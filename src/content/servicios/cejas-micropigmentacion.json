@@ -1,0 +1,55 @@
+{
+	"categoria": {
+		"es": "Micropigmentación",
+		"en": "Microblading / Micropigmentation"
+	},
+	"orden": 1,
+	"fotos": [
+		"cejas-antes-despues-bold-latin.jpg",
+		"microblading-antes-despues-18-meses.jpg"
+	],
+	"items": [
+		{
+			"nombre": {
+				"es": "Bold Brows (efecto natural pelo a pelo)",
+				"en": "Bold Brows (natural hair-stroke effect)"
+			},
+			"precio": 3300
+		},
+		{
+			"nombre": {
+				"es": "Efecto Polvo (ceja maquillada)",
+				"en": "Powder Effect (makeup-look brow)"
+			},
+			"precio": 3900
+		},
+		{
+			"nombre": {
+				"es": "Latin Brows (técnica híbrida 50/50)",
+				"en": "Latin Brows (50/50 hybrid technique)"
+			},
+			"precio": 3600
+		},
+		{
+			"nombre": {
+				"es": "Retoque (5 semanas después, cualquier técnica)",
+				"en": "Touch-up (5 weeks later, any technique)"
+			},
+			"precio": 1950
+		},
+		{
+			"nombre": {
+				"es": "Neutralización (con microblading)",
+				"en": "Neutralization (with microblading)"
+			},
+			"precio": 800
+		},
+		{
+			"nombre": {
+				"es": "Neutralización (solo)",
+				"en": "Neutralization (standalone)"
+			},
+			"precio": 1000
+		}
+	]
+}
