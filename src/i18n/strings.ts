@@ -18,6 +18,15 @@ export const strings = {
 		"cta.whatsapp": "Agenda por WhatsApp",
 		"lang.switchTo": "Switch to English",
 		"a11y.skipToContent": "Saltar al contenido",
+		"hero.eyebrow": "Tijuana, Baja California",
+		"hero.tagline": "Cejas, pestañas, faciales y masajes",
+		"hero.intro":
+			"Micropigmentación, extensiones de pestañas y tratamientos de spa, con precios claros y trabajo real. Agenda tu cita por WhatsApp.",
+		"hero.photoAlt":
+			"Interior del estudio Ana George: camillas de tratamiento, lámpara de trabajo y una vela encendida",
+		"notFound.title": "Página no encontrada",
+		"notFound.body": "La página que buscas no existe o cambió de dirección.",
+		"notFound.back": "Volver al inicio",
 	},
 	en: {
 		"site.name": "Ana George Studio",
@@ -30,6 +39,16 @@ export const strings = {
 		"cta.whatsapp": "Book on WhatsApp",
 		"lang.switchTo": "Cambiar a español",
 		"a11y.skipToContent": "Skip to content",
+		"hero.eyebrow": "Tijuana, Baja California",
+		"hero.tagline": "Brows, lashes, facials and massage",
+		"hero.intro":
+			"Brow micropigmentation, eyelash extensions and spa treatments, with clear pricing and real results. Book your appointment on WhatsApp.",
+		"hero.photoAlt":
+			"Interior of Ana George Studio: treatment beds, a work lamp and a lit candle",
+		"notFound.title": "Page not found",
+		"notFound.body":
+			"The page you are looking for does not exist or has moved.",
+		"notFound.back": "Back to home",
 	},
 } as const;
 

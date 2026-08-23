@@ -1,0 +1,43 @@
+---
+import { Image } from "astro:assets";
+import estudioInterior from "../assets/photos/estudio-interior.jpg";
+import { type Locale, t } from "../i18n/strings";
+import WhatsAppButton from "./WhatsAppButton.astro";
+
+interface Props {
+	locale: Locale;
+}
+
+const { locale } = Astro.props;
+---
+
+<section class="bg-primary/25">
+	<div
+		class="mx-auto grid max-w-[72rem] items-center gap-8 px-4 py-12 md:grid-cols-2 md:py-16"
+	>
+		<div>
+			<p class="text-sm font-medium tracking-wide text-accent-text uppercase">
+				{t(locale, "hero.eyebrow")}
+			</p>
+			<h1 class="mt-3 font-display text-[2.75rem] leading-[1.1] md:text-[4rem] md:leading-[1.05]">
+				{t(locale, "site.name")}
+			</h1>
+			<p class="mt-2 font-display text-2xl text-primary-fg">
+				{t(locale, "hero.tagline")}
+			</p>
+			<p class="mt-4 max-w-prose text-fg-muted">
+				{t(locale, "hero.intro")}
+			</p>
+			<WhatsAppButton locale={locale} class="mt-8" />
+		</div>
+
+		<Image
+			src={estudioInterior}
+			alt={t(locale, "hero.photoAlt")}
+			widths={[480, 800, 1200]}
+			sizes="(min-width: 768px) 50vw, 100vw"
+			loading="eager"
+			class="rounded-lg shadow-[0_4px_16px_rgba(31,58,61,0.08)]"
+		/>
+	</div>
+</section>

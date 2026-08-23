@@ -1,0 +1,29 @@
+---
+import { locales, t } from "../i18n/strings";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+	locale="es"
+	title="Página no encontrada · Page not found — Ana George Studio"
+	description="La página que buscas no existe. / The page you are looking for does not exist."
+>
+	<section class="mx-auto max-w-[72rem] px-4 py-16">
+		<p class="font-display text-6xl text-primary-fg">404</p>
+
+		{
+			locales.map((locale) => (
+				<div class="mt-8" lang={locale}>
+					<h1 class="text-2xl">{t(locale, "notFound.title")}</h1>
+					<p class="mt-2 text-fg-muted">{t(locale, "notFound.body")}</p>
+					<a
+						href={locale === "es" ? "/" : "/en/"}
+						class="mt-3 inline-block font-medium text-accent-text underline"
+					>
+						{t(locale, "notFound.back")}
+					</a>
+				</div>
+			))
+		}
+	</section>
+</BaseLayout>
