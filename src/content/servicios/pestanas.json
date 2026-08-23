@@ -1,0 +1,103 @@
+{
+	"categoria": { "es": "Pestañas", "en": "Eyelash Extensions" },
+	"orden": 3,
+	"fotos": [
+		"ceja-pestana-antes-despues.jpg",
+		"mosaico-15-estilos-pestanas.jpg"
+	],
+	"items": [
+		{
+			"nombre": { "es": "Clásicas", "en": "Classic" },
+			"precio": 800,
+			"precioRetoque": 650
+		},
+		{
+			"nombre": { "es": "Híbridas", "en": "Hybrid" },
+			"precio": 980,
+			"precioRetoque": 750
+		},
+		{
+			"nombre": { "es": "Volumen", "en": "Volume" },
+			"precio": 1150,
+			"precioRetoque": 950
+		},
+		{
+			"nombre": { "es": "Mega Volumen", "en": "Mega Volume" },
+			"precio": 1300,
+			"precioRetoque": 950
+		},
+		{
+			"nombre": { "es": "Efecto Plumilla", "en": "Feather Effect" },
+			"precio": 970,
+			"precioRetoque": 850
+		},
+		{
+			"nombre": {
+				"es": "Volumen Hawaiano o Griegas",
+				"en": "Hawaiian or Greek Volume"
+			},
+			"precio": 1100,
+			"precioRetoque": 850
+		},
+		{
+			"nombre": { "es": "Volumen Combinado", "en": "Combined Volume" },
+			"precio": 1000,
+			"precioRetoque": 850
+		},
+		{
+			"nombre": { "es": "Efecto Bratz", "en": "Bratz Effect" },
+			"precio": 980,
+			"precioRetoque": 800
+		},
+		{
+			"nombre": { "es": "Efecto Mojado", "en": "Wet Effect" },
+			"precio": 880,
+			"precioRetoque": 700
+		},
+		{
+			"nombre": { "es": "Efecto Rímel", "en": "Mascara Effect" },
+			"precio": 850,
+			"precioRetoque": 700
+		},
+		{
+			"nombre": { "es": "Efecto Aura", "en": "Aura Effect" },
+			"precio": 1000,
+			"precioRetoque": 830
+		},
+		{
+			"nombre": { "es": "Anime", "en": "Anime" },
+			"precio": 1200,
+			"precioRetoque": 950
+		},
+		{
+			"nombre": { "es": "Anime con Volumen", "en": "Anime with Volume" },
+			"precio": 1300,
+			"precioRetoque": 980
+		},
+		{
+			"nombre": { "es": "Wispy", "en": "Wispy" },
+			"precio": 1100,
+			"precioRetoque": 900
+		},
+		{
+			"nombre": { "es": "Foxy", "en": "Foxy" },
+			"precio": 1300,
+			"precioRetoque": 980
+		},
+		{
+			"nombre": {
+				"es": "Color (extra al set)",
+				"en": "Color (add-on to any set)"
+			},
+			"precio": 150,
+			"notaAdicional": {
+				"es": "Se suma al precio del set elegido",
+				"en": "Added on top of the chosen set's price"
+			}
+		},
+		{
+			"nombre": { "es": "Retiro de extensiones", "en": "Extension removal" },
+			"precio": 180
+		}
+	]
+}

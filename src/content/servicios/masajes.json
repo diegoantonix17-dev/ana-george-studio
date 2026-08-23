@@ -1,0 +1,28 @@
+{
+	"categoria": { "es": "Masajes", "en": "Massages" },
+	"orden": 5,
+	"fotos": [],
+	"items": [
+		{
+			"nombre": {
+				"es": "Masaje relajante (espalda y cuello)",
+				"en": "Relaxing massage (back and neck)"
+			},
+			"precio": 650
+		},
+		{
+			"nombre": {
+				"es": "Masaje de pies (tina relajante + aromaterapia)",
+				"en": "Foot massage (relaxing soak + aromatherapy)"
+			},
+			"precio": 500
+		},
+		{
+			"nombre": {
+				"es": "Masaje relajante (cuerpo completo)",
+				"en": "Relaxing massage (full body)"
+			},
+			"precio": 850
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"categoria": { "es": "Faciales", "en": "Facials" },
+	"orden": 4,
+	"fotos": [],
+	"items": [
+		{
+			"nombre": { "es": "Limpieza profunda", "en": "Deep cleansing facial" },
+			"precio": 850
+		},
+		{
+			"nombre": {
+				"es": "Hidratación intensiva",
+				"en": "Intensive hydration facial"
+			},
+			"precio": 800
+		}
+	]
+}
