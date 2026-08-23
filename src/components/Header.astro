@@ -1,0 +1,47 @@
+---
+import { type Locale, localePath, t } from "../i18n/strings";
+
+interface Props {
+	locale: Locale;
+}
+
+const { locale } = Astro.props;
+const home = localePath[locale];
+
+const nav = [
+	{ href: "#servicios", label: t(locale, "nav.servicios") },
+	{ href: "#testimonios", label: t(locale, "nav.testimonios") },
+	{ href: "#ubicacion", label: t(locale, "nav.ubicacion") },
+	{ href: "#contacto", label: t(locale, "nav.contacto") },
+];
+---
+
+<header class="border-b border-border bg-surface">
+	<div
+		class="mx-auto flex max-w-[72rem] flex-wrap items-center justify-between gap-4 px-4 py-4"
+	>
+		<a href={home} class="flex items-center gap-3">
+			<span
+				class="grid h-10 w-10 place-items-center rounded-md bg-cta font-display text-lg font-semibold text-cta-fg"
+				aria-hidden="true">AG</span
+			>
+			<span class="font-display text-xl font-semibold">
+				{t(locale, "site.name")}
+			</span>
+		</a>
+
+		<nav aria-label={t(locale, "nav.label")}>
+			<ul class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
+				{
+					nav.map((item) => (
+						<li>
+							<a href={item.href} class="hover:text-accent-text">
+								{item.label}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</nav>
+	</div>
+</header>

@@ -1,16 +1,11 @@
 ---
-import "../styles/global.css";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Ana George Studio</title>
-	</head>
-	<body>
-		<h1>Ana George Studio</h1>
-	</body>
-</html>
+<BaseLayout
+	locale="es"
+	title="Ana George Studio — Cejas, pestañas, faciales y masajes en Tijuana"
+	description="Estudio de belleza en Tijuana: micropigmentación de cejas, extensiones de pestañas, faciales y masajes. Precios vigentes y trabajos reales."
+>
+	<h1>Ana George Studio</h1>
+</BaseLayout>
