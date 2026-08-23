@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@import "@fontsource/cormorant-garamond/400.css";
+@import "@fontsource/cormorant-garamond/600.css";
+@import "@fontsource/jost/400.css";
+@import "@fontsource/jost/500.css";
+
+@theme {
+	--color-background: #eaf6f5;
+	--color-surface: #ffffff;
+	--color-border: #d8e8e6;
+	--color-fg: #2a2a2a;
+	--color-fg-muted: #6b6b6b;
+	--color-primary: #7fc8c4;
+	--color-primary-fg: #1f3a3d;
+	--color-accent: #c9a24b;
+	--color-accent-fg: #2a2a2a;
+	--color-accent-text: #8a6a20;
+	--color-cta: #14282a;
+	--color-cta-fg: #ffffff;
+
+	--font-display: "Cormorant Garamond", Georgia, serif;
+	--font-body: Jost, -apple-system, sans-serif;
+
+	--radius-card: 0.5rem;
+	--shadow-card: 0 4px 16px rgba(31, 58, 61, 0.08);
+}
+
+@layer base {
+	body {
+		@apply bg-background text-fg font-body;
+		letter-spacing: 0.01em;
+		line-height: 1.6;
+	}
+
+	h1,
+	h2,
+	h3 {
+		@apply font-display;
+		font-weight: 600;
+		line-height: 1.2;
+	}
+}
