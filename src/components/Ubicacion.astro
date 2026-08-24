@@ -1,0 +1,40 @@
+---
+import { direccionCompleta, mapaEmbedUrl } from "../data/negocio";
+import { type Locale, t } from "../i18n/strings";
+
+interface Props {
+	locale: Locale;
+}
+
+const { locale } = Astro.props;
+---
+
+<section id="ubicacion" class="mx-auto max-w-[72rem] px-4 py-16">
+	<h2 class="font-display text-[1.75rem] leading-[1.2]">
+		{t(locale, "ubicacion.titulo")}
+	</h2>
+
+	<div class="mt-6 grid gap-8 md:grid-cols-2">
+		<div>
+			<h3 class="text-sm font-medium tracking-wide text-accent-text uppercase">
+				{t(locale, "ubicacion.direccionLabel")}
+			</h3>
+			{/* Como texto y no sólo dentro del iframe, para que sea indexable. */}
+			<address class="mt-2 text-lg not-italic">{direccionCompleta}</address>
+
+			<h3 class="mt-8 text-sm font-medium tracking-wide text-accent-text uppercase">
+				{t(locale, "ubicacion.horarioLabel")}
+			</h3>
+			<p class="mt-2 text-lg">{t(locale, "ubicacion.horario")}</p>
+		</div>
+
+		<div class="aspect-[4/3] overflow-hidden rounded-lg shadow-[0_4px_16px_rgba(31,58,61,0.08)]">
+			<iframe
+				src={mapaEmbedUrl}
+				title={t(locale, "ubicacion.mapaTitle")}
+				loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"
+				class="h-full w-full border-0"></iframe>
+		</div>
+	</div>
+</section>

@@ -1,15 +1,14 @@
 ---
+import { whatsappUrl } from "../data/negocio";
 import { type Locale, t } from "../i18n/strings";
 
 /**
  * Único mecanismo de conversión del sitio.
  *
- * `526645954430` = código de país 52 + los 10 dígitos de 664 595 4430, formato
- * vigente de wa.me desde 2021 (sin el "1" extra de los números antiguos).
- * Es la única constante de este archivo a propósito: si el número del bot
- * cambia, corregirlo es un cambio de una sola línea (blueprint §20.2, riesgo #1).
+ * El enlace es siempre genérico: mismo número, sin mensaje prellenado y sin
+ * query string. Los mensajes prellenados por servicio son un no-goal explícito
+ * de v1 (blueprint §1) — se diseñan a propósito en la Etapa 3, no antes.
  */
-const WHATSAPP_URL = "https://wa.me/526645954430";
 
 interface Props {
 	locale: Locale;
@@ -20,7 +19,7 @@ const { locale, class: className = "" } = Astro.props;
 ---
 
 <a
-	href={WHATSAPP_URL}
+	href={whatsappUrl}
 	target="_blank"
 	rel="noopener noreferrer"
 	class:list={[

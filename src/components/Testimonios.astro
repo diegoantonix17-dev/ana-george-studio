@@ -36,17 +36,21 @@ const { testimonios } = entry.data;
 				testimonios.map((testimonio) => (
 					<li
 						data-testimonio="true"
-						class="flex flex-col rounded-lg bg-surface p-6 shadow-[0_4px_16px_rgba(31,58,61,0.08)]"
+						class="rounded-lg bg-surface p-6 shadow-[0_4px_16px_rgba(31,58,61,0.08)]"
 					>
-						<blockquote lang="es" class="grow">
-							{testimonio.texto}
-						</blockquote>
-						<footer class="mt-4 flex flex-wrap items-center gap-3 border-t border-border pt-4">
-							<cite class="font-medium not-italic">{testimonio.autor}</cite>
-							<span class="rounded-full bg-accent px-3 py-1 text-xs font-medium text-accent-fg">
-								{testimonio.fuente}
-							</span>
-						</footer>
+						{/* figure + figcaption es el patrón HTML para una cita con
+						    atribución; <footer> aquí colgaría de la <section>. */}
+						<figure class="flex h-full flex-col">
+							<blockquote lang="es" class="grow">
+								{testimonio.texto}
+							</blockquote>
+							<figcaption class="mt-4 flex flex-wrap items-center gap-3 border-t border-border pt-4">
+								<cite class="font-medium not-italic">{testimonio.autor}</cite>
+								<span class="rounded-full bg-accent px-3 py-1 text-xs font-medium text-accent-fg">
+									{testimonio.fuente}
+								</span>
+							</figcaption>
+						</figure>
 					</li>
 				))
 			}

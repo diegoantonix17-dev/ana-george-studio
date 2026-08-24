@@ -1,0 +1,61 @@
+---
+import { direccionCompleta, redes, telefonoVisible } from "../data/negocio";
+import { type Locale, t } from "../i18n/strings";
+import WhatsAppButton from "./WhatsAppButton.astro";
+
+interface Props {
+	locale: Locale;
+}
+
+const { locale } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer id="contacto" class="border-t border-border bg-surface">
+	<div class="mx-auto grid max-w-[72rem] gap-8 px-4 py-12 sm:grid-cols-2 lg:grid-cols-3">
+		<div>
+			<p class="font-display text-xl font-semibold">{t(locale, "site.name")}</p>
+			<address class="mt-2 text-sm text-fg-muted not-italic">{direccionCompleta}</address>
+		</div>
+
+		<div>
+			<h2 class="text-sm font-medium tracking-wide text-accent-text uppercase">
+				{t(locale, "footer.contacto")}
+			</h2>
+			{/* El número también como texto, no sólo dentro del enlace. */}
+			<p class="mt-2">
+				<span class="text-fg-muted">{t(locale, "footer.whatsappLabel")}:</span>
+				{" "}{telefonoVisible}
+			</p>
+			<WhatsAppButton locale={locale} class="mt-4" />
+		</div>
+
+		<div>
+			<h2 class="text-sm font-medium tracking-wide text-accent-text uppercase">
+				{t(locale, "footer.siguenos")}
+			</h2>
+			<ul class="mt-2 space-y-1">
+				{
+					redes.map((red) => (
+						<li>
+							<a
+								href={red.url}
+								target="_blank"
+								rel="noopener noreferrer"
+								class="hover:text-accent-text"
+							>
+								{red.nombre}: {red.usuario}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+	</div>
+
+	<div class="border-t border-border">
+		<p class="mx-auto max-w-[72rem] px-4 py-6 text-sm text-fg-muted">
+			© {year} {t(locale, "site.name")}. {t(locale, "footer.derechos")}
+		</p>
+	</div>
+</footer>
