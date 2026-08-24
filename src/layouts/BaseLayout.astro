@@ -2,6 +2,7 @@
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import ScrollReveal from "../components/ScrollReveal.astro";
+import { analyticsActivo, cloudflareToken } from "../data/analytics";
 import {
 	direccion,
 	direccionCompleta,
@@ -108,5 +109,18 @@ const jsonLd = {
 		<Footer locale={locale} />
 
 		<ScrollReveal />
+
+		{
+			/* Se emite sólo cuando `cloudflareToken` deja de ser el placeholder;
+			   ver el porqué en src/data/analytics.ts. */
+			analyticsActivo && (
+				<script
+					is:inline
+					defer
+					src="https://static.cloudflareinsights.com/beacon.min.js"
+					data-cf-beacon={JSON.stringify({ token: cloudflareToken })}
+				/>
+			)
+		}
 	</body>
 </html>
