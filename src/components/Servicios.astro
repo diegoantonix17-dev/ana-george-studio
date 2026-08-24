@@ -20,4 +20,8 @@ const categorias = (await getCollection("servicios")).sort(
 	</h2>
 
 	{categorias.map((categoria) => <ServicioCategoria locale={locale} categoria={categoria} />)}
+
+	<p class="mt-12 border-t border-border pt-6 text-sm text-fg-muted">
+		{t(locale, "precio.disclaimer")}
+	</p>
 </section>

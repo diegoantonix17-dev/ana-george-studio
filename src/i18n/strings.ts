@@ -33,6 +33,8 @@ export const strings = {
 		"precio.setInicial": "Set inicial",
 		"precio.retoque": "Retoque",
 		"precio.moneda": "MXN",
+		"precio.disclaimer":
+			"Precios actualizados el 31/03/2026. Pueden variar sin previo aviso. Algunas restricciones pueden aplicar.",
 	},
 	en: {
 		"site.name": "Ana George Studio",
@@ -61,6 +63,8 @@ export const strings = {
 		"precio.setInicial": "Initial set",
 		"precio.retoque": "Touch-up",
 		"precio.moneda": "MXN",
+		"precio.disclaimer":
+			"Prices updated 31 March 2026. They may change without notice. Some restrictions may apply.",
 	},
 } as const;
 
