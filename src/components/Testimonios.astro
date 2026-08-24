@@ -17,7 +17,7 @@ if (!entry) {
 const { testimonios } = entry.data;
 ---
 
-<section id="testimonios" class="bg-primary/25">
+<section id="testimonios" data-reveal class="bg-primary/25">
 	<div class="mx-auto max-w-[72rem] px-4 py-16">
 		<h2 class="font-display text-[1.75rem] leading-[1.2]">
 			{t(locale, "testimonios.titulo")}
@@ -25,9 +25,11 @@ const { testimonios } = entry.data;
 
 		{
 			/* Las reseñas se muestran tal cual fueron publicadas, sin traducir
-			   (blueprint §20.3, decisión #6). En inglés se avisa al lector. */
+			   (blueprint §20.3, decisión #6). En inglés se avisa al lector.
+			   primary-fg y no fg-muted: esta nota va sobre el tinte
+			   bg-primary/25, donde el gris apagado sólo alcanza 4.24:1. */
 			locale === "en" && (
-				<p class="mt-2 text-sm text-fg-muted">{t(locale, "testimonios.notaIdioma")}</p>
+				<p class="mt-2 text-sm text-primary-fg">{t(locale, "testimonios.notaIdioma")}</p>
 			)
 		}
 

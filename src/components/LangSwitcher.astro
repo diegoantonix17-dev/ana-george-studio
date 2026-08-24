@@ -1,0 +1,30 @@
+---
+import { type Locale, localePath, t } from "../i18n/strings";
+
+interface Props {
+	locale: Locale;
+}
+
+const { locale } = Astro.props;
+const destino: Locale = locale === "es" ? "en" : "es";
+
+/**
+ * Enlace estático, no una isla hidratada.
+ *
+ * El blueprint (§6) lo describe como isla `client:load` que "calcula la URL
+ * espejo y navega". Con sólo dos rutas, esa URL espejo se conoce en build time
+ * — `/` ↔ `/en/` — así que un `<a>` hace exactamente lo mismo con cero
+ * JavaScript, funciona sin JS y es accesible por teclado por defecto. Enviar
+ * un bundle para esto contradiría el "cero JS por defecto" de §2.
+ */
+---
+
+<a
+	href={localePath[destino]}
+	hreflang={destino}
+	lang={destino}
+	aria-label={t(locale, "lang.switchTo")}
+	class="rounded-md border border-border px-3 py-1.5 text-sm font-medium transition duration-150 ease-out hover:bg-primary/25"
+>
+	{t(locale, "lang.otherName")}
+</a>

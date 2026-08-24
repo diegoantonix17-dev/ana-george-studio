@@ -1,6 +1,7 @@
 ---
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import ScrollReveal from "../components/ScrollReveal.astro";
 import { type Locale, t } from "../i18n/strings";
 import "../styles/global.css";
 
@@ -22,6 +23,9 @@ const { locale, title, description } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 		<meta name="description" content={description} />
+		{/* Marca que hay JS antes de pintar, para que el estado oculto del
+		    scroll-reveal sólo exista si algo puede revelarlo. */}
+		<script is:inline>document.documentElement.classList.add("js");</script>
 	</head>
 	<body class="min-h-screen">
 		<a
@@ -38,5 +42,7 @@ const { locale, title, description } = Astro.props;
 		</main>
 
 		<Footer locale={locale} />
+
+		<ScrollReveal />
 	</body>
 </html>

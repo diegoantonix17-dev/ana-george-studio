@@ -1,5 +1,6 @@
 ---
 import { type Locale, localePath, t } from "../i18n/strings";
+import LangSwitcher from "./LangSwitcher.astro";
 
 interface Props {
 	locale: Locale;
@@ -30,18 +31,22 @@ const nav = [
 			</span>
 		</a>
 
-		<nav aria-label={t(locale, "nav.label")}>
-			<ul class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
-				{
-					nav.map((item) => (
-						<li>
-							<a href={item.href} class="hover:text-accent-text">
-								{item.label}
-							</a>
-						</li>
-					))
-				}
-			</ul>
-		</nav>
+		<div class="flex flex-wrap items-center gap-x-6 gap-y-2">
+			<nav aria-label={t(locale, "nav.label")}>
+				<ul class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
+					{
+						nav.map((item) => (
+							<li>
+								<a href={item.href} class="hover:text-accent-text">
+									{item.label}
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</nav>
+
+			<LangSwitcher locale={locale} />
+		</div>
 	</div>
 </header>

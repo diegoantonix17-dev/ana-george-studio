@@ -16,7 +16,11 @@ const { locale } = Astro.props;
 		class="mx-auto grid max-w-[72rem] items-center gap-8 px-4 py-12 md:grid-cols-2 md:py-16"
 	>
 		<div>
-			<p class="text-sm font-medium tracking-wide text-accent-text uppercase">
+			{/* Sobre el tinte bg-primary/25 (#CFEBE9) el dorado de texto cae a
+			    4.01:1 y el gris apagado a 4.24:1 — ambos bajo AA. §7 designa
+			    --color-primary-fg como el color de texto sobre superficies
+			    primarias; ahí mide 9.66:1. */}
+			<p class="text-sm font-medium tracking-wide text-primary-fg uppercase">
 				{t(locale, "hero.eyebrow")}
 			</p>
 			<h1 class="mt-3 font-display text-[2.75rem] leading-[1.1] md:text-[4rem] md:leading-[1.05]">
@@ -25,7 +29,7 @@ const { locale } = Astro.props;
 			<p class="mt-2 font-display text-2xl text-primary-fg">
 				{t(locale, "hero.tagline")}
 			</p>
-			<p class="mt-4 max-w-prose text-fg-muted">
+			<p class="mt-4 max-w-prose text-primary-fg">
 				{t(locale, "hero.intro")}
 			</p>
 			<WhatsAppButton locale={locale} class="mt-8" />

@@ -1,0 +1,71 @@
+---
+/**
+ * Revela cada `[data-reveal]` al entrar en viewport.
+ *
+ * El blueprint (§6) lo describe como isla `client:idle`. Las directivas
+ * `client:*` de Astro sólo hidratan componentes de un framework de UI
+ * (React/Vue/Svelte), y §11 los rechaza a propósito — un `.astro` no se puede
+ * hidratar. El equivalente idiomático es este `<script>`: Astro lo empaqueta y
+ * lo sirve como módulo con `defer`, así que corre después del parseo del HTML
+ * sin bloquear el render, que es justamente lo que buscaba `client:idle`.
+ *
+ * Si el usuario pidió menos movimiento, no se observa nada: todo se muestra ya
+ * visible desde la primera pintura (además de la regla CSS equivalente, que
+ * cubre el caso de que este script nunca llegue a correr).
+ */
+---
+
+<script>
+	const elementos = document.querySelectorAll<HTMLElement>("[data-reveal]");
+	const sinMovimiento = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+	function mostrarTodo() {
+		for (const el of elementos) el.classList.add("is-visible");
+	}
+
+	if (sinMovimiento.matches || !("IntersectionObserver" in window)) {
+		mostrarTodo();
+	} else {
+		/*
+		 * threshold 0 + rootMargin, NO el `threshold: 0.15` del blueprint.
+		 *
+		 * Una sección más alta que el viewport nunca alcanza un ratio de 0.15:
+		 * en un teléfono de 812px de alto, `#servicios` mide ~6100px, así que
+		 * su ratio máximo posible es 812/6100 ≈ 0.13. Con 0.15 la sección de
+		 * precios —el contenido central del sitio— se quedaría en opacity 0
+		 * para siempre en móvil. Con threshold 0 se revela en cuanto el borde
+		 * superior entra, sea cual sea su altura.
+		 */
+		const observador = new IntersectionObserver(
+			(entradas, obs) => {
+				for (const entrada of entradas) {
+					if (!entrada.isIntersecting) continue;
+					entrada.target.classList.add("is-visible");
+					obs.unobserve(entrada.target);
+				}
+			},
+			{ threshold: 0, rootMargin: "0px 0px -80px 0px" },
+		);
+
+		for (const el of elementos) observador.observe(el);
+
+		/*
+		 * Red de seguridad: pase lo que pase, nada queda oculto para siempre.
+		 * El estado inicial es opacity 0, así que cualquier fallo del observer
+		 * escondería contenido real de forma permanente. A los 4s se revela lo
+		 * que quede — si está fuera de pantalla el usuario no nota nada, y si
+		 * el observer sí funcionó esto no hace nada.
+		 */
+		window.setTimeout(() => {
+			observador.disconnect();
+			mostrarTodo();
+		}, 4000);
+
+		// Si activa "reducir movimiento" a mitad de la visita, dejar de animar.
+		sinMovimiento.addEventListener("change", (evento) => {
+			if (!evento.matches) return;
+			observador.disconnect();
+			mostrarTodo();
+		});
+	}
+</script>
