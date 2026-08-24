@@ -2,6 +2,12 @@
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import ScrollReveal from "../components/ScrollReveal.astro";
+import {
+	direccion,
+	direccionCompleta,
+	redes,
+	whatsappNumero,
+} from "../data/negocio";
 import { type Locale, t } from "../i18n/strings";
 import "../styles/global.css";
 
@@ -9,9 +15,43 @@ interface Props {
 	locale: Locale;
 	title: string;
 	description: string;
+	/** La 404 no debe indexarse ni aparecer como alternativa de idioma. */
+	noindex?: boolean;
 }
 
-const { locale, title, description } = Astro.props;
+const { locale, title, description, noindex = false } = Astro.props;
+
+const site = Astro.site ?? new URL("https://ana-george-studio.netlify.app");
+const canonical = new URL(Astro.url.pathname, site);
+const ogImage = new URL(`/og/og-${locale}.png`, site);
+
+/** Las dos versiones de la misma página, para hreflang. */
+const alternates = [
+	{ hreflang: "es-MX", href: new URL("/", site).href },
+	{ hreflang: "en-US", href: new URL("/en/", site).href },
+	{ hreflang: "x-default", href: new URL("/", site).href },
+];
+
+const jsonLd = {
+	"@context": "https://schema.org",
+	"@type": "LocalBusiness",
+	name: "Ana George Studio",
+	description,
+	url: canonical.href,
+	image: ogImage.href,
+	telephone: `+${whatsappNumero}`,
+	address: {
+		"@type": "PostalAddress",
+		streetAddress: `${direccion.calle}, ${direccion.colonia}`,
+		addressLocality: direccion.ciudad,
+		addressRegion: direccion.estado,
+		postalCode: direccion.codigoPostal,
+		addressCountry: direccion.pais,
+	},
+	openingHours: "Mo-Sa 08:00-18:00",
+	priceRange: "$$",
+	sameAs: redes.map((red) => red.url),
+};
 ---
 
 <!doctype html>
@@ -23,6 +63,30 @@ const { locale, title, description } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 		<meta name="description" content={description} />
+		<link rel="canonical" href={canonical.href} />
+
+		{noindex && <meta name="robots" content="noindex, follow" />}
+		{
+			!noindex &&
+				alternates.map((alt) => (
+					<link rel="alternate" hreflang={alt.hreflang} href={alt.href} />
+				))
+		}
+
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Ana George Studio" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content={canonical.href} />
+		<meta property="og:image" content={ogImage.href} />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:image:alt" content={`Ana George Studio — ${direccionCompleta}`} />
+		<meta property="og:locale" content={locale === "es" ? "es_MX" : "en_US"} />
+		<meta name="twitter:card" content="summary_large_image" />
+
+		<script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
+
 		{/* Marca que hay JS antes de pintar, para que el estado oculto del
 		    scroll-reveal sólo exista si algo puede revelarlo. */}
 		<script is:inline>document.documentElement.classList.add("js");</script>

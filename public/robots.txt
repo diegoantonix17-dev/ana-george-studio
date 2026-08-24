@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ana-george-studio.netlify.app/sitemap-index.xml

@@ -1,0 +1,28 @@
+# Ana George Studio
+
+> Estudio de belleza en Tijuana, Baja California (México), especializado en
+> micropigmentación y microblading de cejas, extensiones de pestañas, faciales
+> y masajes. El sitio publica el catálogo completo de servicios con precios
+> vigentes en pesos mexicanos, fotos reales del trabajo y reseñas verificadas.
+> Las citas se agendan únicamente por WhatsApp.
+
+> Beauty studio in Tijuana, Baja California (Mexico), specialising in brow
+> micropigmentation and microblading, eyelash extensions, facials and massage.
+> The site lists the full service catalogue with current prices in Mexican
+> pesos, real photos of the work and verified reviews. Appointments are booked
+> through WhatsApp only.
+
+## Páginas / Pages
+
+- [Inicio (español)](https://ana-george-studio.netlify.app/): versión en español. Catálogo completo con 35 precios en 5 categorías (micropigmentación de cejas, más servicios de ceja, extensiones de pestañas, faciales, masajes), testimonios, dirección y horario.
+- [Home (English)](https://ana-george-studio.netlify.app/en/): English version of the same content. Service names are translated; prices are identical and the customer reviews are shown in their original Spanish.
+
+## Datos del negocio / Business facts
+
+- Dirección / Address: Tolsa 4, Obrera 2da Sección, C.P. 22624, Tijuana, Baja California, México
+- Horario / Opening hours: lunes a sábado, 8:00 AM – 6:00 PM (Monday to Saturday)
+- WhatsApp: +52 664 595 4430 — único canal de contacto y de reservación / the only contact and booking channel
+- Facebook: https://facebook.com/AGStudio_Mx
+- Instagram: https://instagram.com/microblading.agstudio
+- Moneda de todos los precios / Currency for all prices: MXN (pesos mexicanos)
+- Los precios fueron actualizados el 31/03/2026 y pueden variar sin previo aviso.
