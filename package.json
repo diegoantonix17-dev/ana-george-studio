@@ -12,7 +12,8 @@
 		"astro": "astro",
 		"check": "astro check",
 		"lint": "biome check .",
-		"a11y": "pa11y-ci"
+		"a11y": "pa11y-ci",
+		"seo": "node scripts/seo-audit.mjs"
 	},
 	"dependencies": {
 		"@astrojs/sitemap": "3.7.3",
