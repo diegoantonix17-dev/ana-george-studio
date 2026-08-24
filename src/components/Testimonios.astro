@@ -1,0 +1,55 @@
+---
+import { getEntry } from "astro:content";
+import { type Locale, t } from "../i18n/strings";
+
+interface Props {
+	locale: Locale;
+}
+
+const { locale } = Astro.props;
+
+const entry = await getEntry("testimonios", "testimonios");
+if (!entry) {
+	throw new Error(
+		"Falta src/content/testimonios/testimonios.json — la sección de testimonios no puede renderizarse",
+	);
+}
+const { testimonios } = entry.data;
+---
+
+<section id="testimonios" class="bg-primary/25">
+	<div class="mx-auto max-w-[72rem] px-4 py-16">
+		<h2 class="font-display text-[1.75rem] leading-[1.2]">
+			{t(locale, "testimonios.titulo")}
+		</h2>
+
+		{
+			/* Las reseñas se muestran tal cual fueron publicadas, sin traducir
+			   (blueprint §20.3, decisión #6). En inglés se avisa al lector. */
+			locale === "en" && (
+				<p class="mt-2 text-sm text-fg-muted">{t(locale, "testimonios.notaIdioma")}</p>
+			)
+		}
+
+		<ul class="mt-8 grid gap-6 sm:grid-cols-2">
+			{
+				testimonios.map((testimonio) => (
+					<li
+						data-testimonio="true"
+						class="flex flex-col rounded-lg bg-surface p-6 shadow-[0_4px_16px_rgba(31,58,61,0.08)]"
+					>
+						<blockquote lang="es" class="grow">
+							{testimonio.texto}
+						</blockquote>
+						<footer class="mt-4 flex flex-wrap items-center gap-3 border-t border-border pt-4">
+							<cite class="font-medium not-italic">{testimonio.autor}</cite>
+							<span class="rounded-full bg-accent px-3 py-1 text-xs font-medium text-accent-fg">
+								{testimonio.fuente}
+							</span>
+						</footer>
+					</li>
+				))
+			}
+		</ul>
+	</div>
+</section>

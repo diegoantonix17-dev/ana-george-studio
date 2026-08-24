@@ -35,6 +35,11 @@ export const strings = {
 		"precio.moneda": "MXN",
 		"precio.disclaimer":
 			"Precios actualizados el 31/03/2026. Pueden variar sin previo aviso. Algunas restricciones pueden aplicar.",
+		"testimonios.titulo": "Lo que dicen nuestras clientas",
+		// Sólo se renderiza en /en/: avisa que la cita se deja en su idioma
+		// original. En español la reseña ya está en el idioma de la página,
+		// así que esta línea nunca se muestra.
+		"testimonios.notaIdioma": "Reseña original en español",
 	},
 	en: {
 		"site.name": "Ana George Studio",
@@ -65,6 +70,8 @@ export const strings = {
 		"precio.moneda": "MXN",
 		"precio.disclaimer":
 			"Prices updated 31 March 2026. They may change without notice. Some restrictions may apply.",
+		"testimonios.titulo": "What our clients say",
+		"testimonios.notaIdioma": "Original review in Spanish",
 	},
 } as const;
 
