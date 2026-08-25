@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Documento de planeación interno: queda sólo en local, nunca en el repo
+# público. Contiene precios, contacto y notas internas del negocio.
+blueprints/
