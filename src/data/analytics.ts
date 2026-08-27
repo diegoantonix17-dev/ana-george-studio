@@ -9,7 +9,7 @@
  * que vive en el repo y no en una variable de entorno — meterlo en un `.env`
  * daría a entender que hay que protegerlo (blueprint §10).
  */
-export const cloudflareToken = "PENDIENTE-crear-cuenta-gratuita-y-pegar-token";
+export const cloudflareToken = "e8ca76ba36274b83a5bd0420fb34eb71";
 
 /**
  * Mientras el token siga siendo el placeholder no se emite el `<script>`.
