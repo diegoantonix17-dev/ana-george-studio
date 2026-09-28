@@ -1,14 +1,27 @@
 /**
  * Datos de contacto del negocio — fuente única de verdad.
  *
- * Los usan `WhatsAppButton`, `Ubicacion`, `Footer` y el bloque JSON-LD de
+ * Los usan `AgendarButton`, `Ubicacion`, `Footer` y el bloque JSON-LD de
  * `BaseLayout`. Están aquí y no repetidos en cada plantilla por la misma razón
  * por la que los precios viven en `src/content/servicios/` (blueprint §3): un
  * dato de negocio se corrige en un solo lugar o termina divergiendo.
+ */
+
+/**
+ * Destino de conversión del sitio: el sistema de agendado propio del negocio.
  *
- * NOTA (blueprint §20.2, riesgo #1): el negocio marcó 664 595 4430 como *no
- * confirmado* todavía como el número que atiende el bot de WhatsApp. El flyer
- * oficial lo imprime como su WhatsApp, pero eso no prueba que sea el del bot.
+ * Sustituye a WhatsApp como acción primaria — los botones de llamada a la
+ * acción de Hero, cada categoría de servicio y el footer apuntan aquí.
+ */
+export const agendarUrl = "https://www.agstudiobeauty.com/agendar";
+
+/**
+ * WhatsApp queda como contacto SECUNDARIO: sigue visible en Ubicación y en el
+ * footer para quien prefiera escribir, pero ya no es el botón de acción.
+ *
+ * NOTA (blueprint §20.2, riesgo #1): 664 595 4430 nunca se confirmó como el
+ * número que atiende el bot. Al dejar de ser la vía de conversión el riesgo
+ * baja mucho, pero el número se sigue publicando, así que conviene validarlo.
  * Si resulta ser otro, `whatsappNumero` es la única línea que hay que cambiar.
  */
 

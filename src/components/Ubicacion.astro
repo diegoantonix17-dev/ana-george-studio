@@ -1,5 +1,10 @@
 ---
-import { direccionCompleta, mapaEmbedUrl } from "../data/negocio";
+import {
+	direccionCompleta,
+	mapaEmbedUrl,
+	telefonoVisible,
+	whatsappUrl,
+} from "../data/negocio";
 import { type Locale, t } from "../i18n/strings";
 
 interface Props {
@@ -26,6 +31,23 @@ const { locale } = Astro.props;
 				{t(locale, "ubicacion.horarioLabel")}
 			</h3>
 			<p class="mt-2 text-lg">{t(locale, "ubicacion.horario")}</p>
+
+			{/* Contacto secundario: la acción principal es agendar en línea,
+			    pero WhatsApp sigue abierto para dudas previas. */}
+			<h3 class="mt-8 text-sm font-medium tracking-wide text-accent-text uppercase">
+				{t(locale, "contacto.dudasLabel")}
+			</h3>
+			<p class="mt-2">
+				{t(locale, "contacto.escribenos")}{" "}
+				<a
+					href={whatsappUrl}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="underline hover:text-accent-text"
+				>
+					{telefonoVisible}
+				</a>
+			</p>
 		</div>
 
 		<div class="aspect-[4/3] overflow-hidden rounded-lg shadow-[0_4px_16px_rgba(31,58,61,0.08)]">

@@ -1,7 +1,12 @@
 ---
-import { direccionCompleta, redes, telefonoVisible } from "../data/negocio";
+import {
+	direccionCompleta,
+	redes,
+	telefonoVisible,
+	whatsappUrl,
+} from "../data/negocio";
 import { type Locale, t } from "../i18n/strings";
-import WhatsAppButton from "./WhatsAppButton.astro";
+import AgendarButton from "./AgendarButton.astro";
 
 interface Props {
 	locale: Locale;
@@ -22,12 +27,22 @@ const year = new Date().getFullYear();
 			<h2 class="text-sm font-medium tracking-wide text-accent-text uppercase">
 				{t(locale, "footer.contacto")}
 			</h2>
-			{/* El número también como texto, no sólo dentro del enlace. */}
-			<p class="mt-2">
-				<span class="text-fg-muted">{t(locale, "footer.whatsappLabel")}:</span>
-				{" "}{telefonoVisible}
+			<AgendarButton locale={locale} class="mt-3" />
+
+			{/* Contacto secundario: WhatsApp ya no es la acción principal, pero
+			    sigue disponible para dudas. El número también como texto, no
+			    sólo dentro del enlace. */}
+			<p class="mt-4 text-sm">
+				<span class="text-fg-muted">{t(locale, "footer.whatsappLabel")}:</span>{" "}
+				<a
+					href={whatsappUrl}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="underline hover:text-accent-text"
+				>
+					{telefonoVisible}
+				</a>
 			</p>
-			<WhatsAppButton locale={locale} class="mt-4" />
 		</div>
 
 		<div>

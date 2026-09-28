@@ -1,0 +1,302 @@
+{
+	".claude/launch.json": {
+		"mtime": 1787504610.7073264,
+		"seen": 1788750720.4577682,
+		"ast_hash": "1fd8dfbe26c2cee89f1f422d3755897c",
+		"semantic_hash": "1fd8dfbe26c2cee89f1f422d3755897c"
+	},
+	".pa11yci.json": {
+		"mtime": 1787540985.138839,
+		"seen": 1788750720.4577682,
+		"ast_hash": "bdf2eef8b64429943109cdcbb54d71f4",
+		"semantic_hash": "bdf2eef8b64429943109cdcbb54d71f4"
+	},
+	".vscode/extensions.json": {
+		"mtime": 1787502855.6192524,
+		"seen": 1788750720.4577682,
+		"ast_hash": "f1b59fa4b1ad927beec4bb2e827ef400",
+		"semantic_hash": "f1b59fa4b1ad927beec4bb2e827ef400"
+	},
+	".vscode/launch.json": {
+		"mtime": 1787502855.6192524,
+		"seen": 1788750720.4577682,
+		"ast_hash": "933b0ab374df2df1bcd18c31b7f62ca0",
+		"semantic_hash": "933b0ab374df2df1bcd18c31b7f62ca0"
+	},
+	"astro.config.mjs": {
+		"mtime": 1787546444.2667565,
+		"seen": 1788750720.4577682,
+		"ast_hash": "7d12db8ab5c507285102a366e2641ee4",
+		"semantic_hash": "7d12db8ab5c507285102a366e2641ee4"
+	},
+	"biome.json": {
+		"mtime": 1787503616.681152,
+		"seen": 1788750720.4577682,
+		"ast_hash": "cb473c8a9d90d165194bc5bb53bcafb0",
+		"semantic_hash": "cb473c8a9d90d165194bc5bb53bcafb0"
+	},
+	"package.json": {
+		"mtime": 1787600427.6628134,
+		"seen": 1788750720.4577682,
+		"ast_hash": "eb65773fb954f536350ab75407338755",
+		"semantic_hash": "eb65773fb954f536350ab75407338755"
+	},
+	"scripts/seo-audit.mjs": {
+		"mtime": 1787594443.7602415,
+		"seen": 1788750720.4577682,
+		"ast_hash": "08f1c8a14f64f9bfe6f497ac764ab345",
+		"semantic_hash": "08f1c8a14f64f9bfe6f497ac764ab345"
+	},
+	"src/components/Footer.astro": {
+		"mtime": 1787537211.55257,
+		"seen": 1788750720.4577682,
+		"ast_hash": "41556fc63c38c9983ba44dc972fe970c",
+		"semantic_hash": "41556fc63c38c9983ba44dc972fe970c"
+	},
+	"src/components/Header.astro": {
+		"mtime": 1787540526.9222827,
+		"seen": 1788750720.4577682,
+		"ast_hash": "868f6066529e9fdd0bc40b3fea429984",
+		"semantic_hash": "868f6066529e9fdd0bc40b3fea429984"
+	},
+	"src/components/Hero.astro": {
+		"mtime": 1787540831.4928365,
+		"seen": 1788750720.4577682,
+		"ast_hash": "f1dba8c9513dbbac42cdb315860f06a2",
+		"semantic_hash": "f1dba8c9513dbbac42cdb315860f06a2"
+	},
+	"src/components/LangSwitcher.astro": {
+		"mtime": 1787540495.7755663,
+		"seen": 1788750720.4577682,
+		"ast_hash": "2e2b718c7535fbb4635325e49f3659eb",
+		"semantic_hash": "2e2b718c7535fbb4635325e49f3659eb"
+	},
+	"src/components/ScrollReveal.astro": {
+		"mtime": 1787541369.0198948,
+		"seen": 1788750720.4577682,
+		"ast_hash": "90ab5881251babf85ab0a3d62f8b0ae4",
+		"semantic_hash": "90ab5881251babf85ab0a3d62f8b0ae4"
+	},
+	"src/components/ServicioCategoria.astro": {
+		"mtime": 1787507650.8568661,
+		"seen": 1788750720.4577682,
+		"ast_hash": "bcb6ec0809f9c4cac2d1f5cd572867e6",
+		"semantic_hash": "bcb6ec0809f9c4cac2d1f5cd572867e6"
+	},
+	"src/components/Servicios.astro": {
+		"mtime": 1787540620.3803773,
+		"seen": 1788750720.4577682,
+		"ast_hash": "52e52dfd66b9dec1edda2439ad475a8e",
+		"semantic_hash": "52e52dfd66b9dec1edda2439ad475a8e"
+	},
+	"src/components/Testimonios.astro": {
+		"mtime": 1787540916.5375452,
+		"seen": 1788750720.4577682,
+		"ast_hash": "fcef61e3fc60de4d7716bfcef78f9b30",
+		"semantic_hash": "fcef61e3fc60de4d7716bfcef78f9b30"
+	},
+	"src/components/Ubicacion.astro": {
+		"mtime": 1787540641.1024518,
+		"seen": 1788750720.4577682,
+		"ast_hash": "7f0257d9e48e5e449f5807487c984dc1",
+		"semantic_hash": "7f0257d9e48e5e449f5807487c984dc1"
+	},
+	"src/components/WhatsAppButton.astro": {
+		"mtime": 1787537181.0912788,
+		"seen": 1788750720.4577682,
+		"ast_hash": "f0f46ca15257407a7aa1d3120151eaa1",
+		"semantic_hash": "f0f46ca15257407a7aa1d3120151eaa1"
+	},
+	"src/content.config.ts": {
+		"mtime": 1787503592.7169206,
+		"seen": 1788750720.4577682,
+		"ast_hash": "e6650b7c01b8685b882c7ef85605b719",
+		"semantic_hash": "e6650b7c01b8685b882c7ef85605b719"
+	},
+	"src/content/servicios/cejas-mas.json": {
+		"mtime": 1787507495.077736,
+		"seen": 1788750720.4577682,
+		"ast_hash": "4f65876b9b64434f505f2d45c1b51597",
+		"semantic_hash": "4f65876b9b64434f505f2d45c1b51597"
+	},
+	"src/content/servicios/cejas-micropigmentacion.json": {
+		"mtime": 1787507495.077736,
+		"seen": 1788750720.4577682,
+		"ast_hash": "198f3b5f35f4bfa8b2764aec407449b4",
+		"semantic_hash": "198f3b5f35f4bfa8b2764aec407449b4"
+	},
+	"src/content/servicios/faciales.json": {
+		"mtime": 1787507710.6826136,
+		"seen": 1788750720.4577682,
+		"ast_hash": "8a1be835f48d19226bd8a060996a991d",
+		"semantic_hash": "8a1be835f48d19226bd8a060996a991d"
+	},
+	"src/content/servicios/masajes.json": {
+		"mtime": 1787507710.6826136,
+		"seen": 1788750720.4577682,
+		"ast_hash": "2538db0ebcdb1c292f81904f102fbc62",
+		"semantic_hash": "2538db0ebcdb1c292f81904f102fbc62"
+	},
+	"src/content/servicios/pestanas.json": {
+		"mtime": 1787507710.6836126,
+		"seen": 1788750720.4577682,
+		"ast_hash": "ccf16c7de2d5620a625e9df2740eb3d3",
+		"semantic_hash": "ccf16c7de2d5620a625e9df2740eb3d3"
+	},
+	"src/content/testimonios/testimonios.json": {
+		"mtime": 1787536385.37343,
+		"seen": 1788750720.4577682,
+		"ast_hash": "34d0717876d0915225111a60d89d54fb",
+		"semantic_hash": "34d0717876d0915225111a60d89d54fb"
+	},
+	"src/data/analytics.ts": {
+		"mtime": 1787866228.7833784,
+		"seen": 1788750720.4577682,
+		"ast_hash": "e6aa5d93fd25361e2b29fb44d38e9b59",
+		"semantic_hash": "e6aa5d93fd25361e2b29fb44d38e9b59"
+	},
+	"src/data/negocio.ts": {
+		"mtime": 1787537159.9274962,
+		"seen": 1788750720.4577682,
+		"ast_hash": "999aeb4edecda9f6813e248edc9118a0",
+		"semantic_hash": "999aeb4edecda9f6813e248edc9118a0"
+	},
+	"src/i18n/photoAlts.ts": {
+		"mtime": 1787507385.426208,
+		"seen": 1788750720.4577682,
+		"ast_hash": "ece126d829800089fd4758f2ee924b3a",
+		"semantic_hash": "ece126d829800089fd4758f2ee924b3a"
+	},
+	"src/i18n/strings.ts": {
+		"mtime": 1787540472.621133,
+		"seen": 1788750720.4577682,
+		"ast_hash": "557f0b3645282867cc62415745774864",
+		"semantic_hash": "557f0b3645282867cc62415745774864"
+	},
+	"src/layouts/BaseLayout.astro": {
+		"mtime": 1787600413.5244274,
+		"seen": 1788750720.4577682,
+		"ast_hash": "3a44ea8e7a34c3d37c37de1d8a037e98",
+		"semantic_hash": "3a44ea8e7a34c3d37c37de1d8a037e98"
+	},
+	"src/pages/404.astro": {
+		"mtime": 1787546554.219494,
+		"seen": 1788750720.4577682,
+		"ast_hash": "fcdd0b8d5a5b796bf4ee0bd110335276",
+		"semantic_hash": "fcdd0b8d5a5b796bf4ee0bd110335276"
+	},
+	"src/pages/en/index.astro": {
+		"mtime": 1787537273.6341186,
+		"seen": 1788750720.4577682,
+		"ast_hash": "595b18592e5ecad817e04fd59d3ab651",
+		"semantic_hash": "595b18592e5ecad817e04fd59d3ab651"
+	},
+	"src/pages/index.astro": {
+		"mtime": 1787537251.8111713,
+		"seen": 1788750720.4577682,
+		"ast_hash": "184db01406a90745b0a6b8bf36be4536",
+		"semantic_hash": "184db01406a90745b0a6b8bf36be4536"
+	},
+	"tsconfig.json": {
+		"mtime": 1787502855.6192524,
+		"seen": 1788750720.4577682,
+		"ast_hash": "922646e633589504d87c8be0b05fc87d",
+		"semantic_hash": "922646e633589504d87c8be0b05fc87d"
+	},
+	"AGENTS.md": {
+		"mtime": 1787501998.875187,
+		"seen": 1788750720.4577682,
+		"ast_hash": "4d944a80d98bf8891d5b10081a86d3e1",
+		"semantic_hash": "4d944a80d98bf8891d5b10081a86d3e1"
+	},
+	"CLAUDE.md": {
+		"mtime": 1787501998.875187,
+		"seen": 1788750720.4577682,
+		"ast_hash": "4d944a80d98bf8891d5b10081a86d3e1",
+		"semantic_hash": "4d944a80d98bf8891d5b10081a86d3e1"
+	},
+	"README.md": {
+		"mtime": 1787501998.8741755,
+		"seen": 1788750720.4577682,
+		"ast_hash": "2b1930198ce302fcdf2d29f674dbfb99",
+		"semantic_hash": "2b1930198ce302fcdf2d29f674dbfb99"
+	},
+	"pnpm-workspace.yaml": {
+		"mtime": 1787502381.7680721,
+		"seen": 1788750720.4577682,
+		"ast_hash": "eab9390e29af3d88c5eaab42bb6c0340",
+		"semantic_hash": "eab9390e29af3d88c5eaab42bb6c0340"
+	},
+	"public/llms.txt": {
+		"mtime": 1787546580.7036147,
+		"seen": 1788750720.4577682,
+		"ast_hash": "7042a35f671615510784fa4e63e41a1b",
+		"semantic_hash": "7042a35f671615510784fa4e63e41a1b"
+	},
+	"public/robots.txt": {
+		"mtime": 1787546563.9230914,
+		"seen": 1788750720.4577682,
+		"ast_hash": "d1b97175cd44043266bba7b132971d31",
+		"semantic_hash": "d1b97175cd44043266bba7b132971d31"
+	},
+	"public/favicon.svg": {
+		"mtime": 1787502874.2970986,
+		"seen": 1788750720.4577682,
+		"ast_hash": "aa390ee558993c7b65b2b115a7480764",
+		"semantic_hash": "aa390ee558993c7b65b2b115a7480764"
+	},
+	"public/og/og-en.png": {
+		"mtime": 1787546497.9039385,
+		"seen": 1788750720.4577682,
+		"ast_hash": "fec3a1ef8b4411e5396ac51ed108174d",
+		"semantic_hash": "fec3a1ef8b4411e5396ac51ed108174d"
+	},
+	"public/og/og-es.png": {
+		"mtime": 1787546497.880196,
+		"seen": 1788750720.4577682,
+		"ast_hash": "b305df567e35e95bd05185b157311c64",
+		"semantic_hash": "b305df567e35e95bd05185b157311c64"
+	},
+	"src/assets/photos/ceja-pestana-antes-despues.jpg": {
+		"mtime": 1787176526.9648135,
+		"seen": 1788750720.4577682,
+		"ast_hash": "17ca4a71d4d7c429edf148dc9bf70797",
+		"semantic_hash": "17ca4a71d4d7c429edf148dc9bf70797"
+	},
+	"src/assets/photos/cejas-antes-despues-bold-latin.jpg": {
+		"mtime": 1787175070.6360915,
+		"seen": 1788750720.4577682,
+		"ast_hash": "2b660baf5233d503b321d13c673b1616",
+		"semantic_hash": "2b660baf5233d503b321d13c673b1616"
+	},
+	"src/assets/photos/cejas-proceso-tecnico.jpg": {
+		"mtime": 1787175101.1361766,
+		"seen": 1788750720.4577682,
+		"ast_hash": "57e75d0d72e19a993b5864beba108bfa",
+		"semantic_hash": "57e75d0d72e19a993b5864beba108bfa"
+	},
+	"src/assets/photos/estudio-interior.jpg": {
+		"mtime": 1787504409.3743205,
+		"seen": 1788750720.4577682,
+		"ast_hash": "26d92d1a3e58ddd8fc0141d4b1c7d122",
+		"semantic_hash": "26d92d1a3e58ddd8fc0141d4b1c7d122"
+	},
+	"src/assets/photos/microblading-antes-despues-18-meses.jpg": {
+		"mtime": 1787176386.9555209,
+		"seen": 1788750720.4577682,
+		"ast_hash": "19bd8ba8ba04c06e31b65dcee52955c8",
+		"semantic_hash": "19bd8ba8ba04c06e31b65dcee52955c8"
+	},
+	"src/assets/photos/mosaico-15-estilos-pestanas.jpg": {
+		"mtime": 1787176760.3914664,
+		"seen": 1788750720.4577682,
+		"ast_hash": "581984e632b940f5d428f3c7f9cacda0",
+		"semantic_hash": "581984e632b940f5d428f3c7f9cacda0"
+	},
+	"src/assets/photos/secuencia-4-pasos-cejas.jpg": {
+		"mtime": 1787176477.8797083,
+		"seen": 1788750720.4577682,
+		"ast_hash": "82659454d1ed8bbfe7d51a8ea0c5bd6f",
+		"semantic_hash": "82659454d1ed8bbfe7d51a8ea0c5bd6f"
+	}
+}

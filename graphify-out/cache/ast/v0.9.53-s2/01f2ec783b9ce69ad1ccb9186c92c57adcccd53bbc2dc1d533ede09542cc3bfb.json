@@ -1,0 +1,108 @@
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_src_components_hero_astro",
+			"label": "Hero.astro",
+			"file_type": "code",
+			"source_file": "src/components/Hero.astro",
+			"source_location": "L1"
+		},
+		{
+			"id": "astro_assets",
+			"label": "astro:assets",
+			"file_type": "code",
+			"source_file": "astro:assets",
+			"confidence": "EXTRACTED"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_src_components_hero_astro",
+			"target": "$graphify-root$_src_assets_photos_estudio_interior_jpg",
+			"relation": "imports_from",
+			"context": "import",
+			"confidence": "EXTRACTED",
+			"source_file": "src/components/Hero.astro",
+			"source_location": "L3",
+			"weight": 1.0,
+			"target_file": "$graphify-root$/src/assets/photos/estudio-interior.jpg"
+		},
+		{
+			"source": "$graphify-root$_src_components_hero_astro",
+			"target": "$graphify-root$_src_i18n_strings_ts",
+			"relation": "imports_from",
+			"context": "import",
+			"confidence": "EXTRACTED",
+			"source_file": "src/components/Hero.astro",
+			"source_location": "L4",
+			"weight": 1.0,
+			"target_file": "$graphify-root$/src/i18n/strings.ts"
+		},
+		{
+			"source": "$graphify-root$_src_components_hero_astro",
+			"target": "$graphify-root$_src_i18n_strings_locale",
+			"relation": "imports",
+			"context": "import",
+			"confidence": "EXTRACTED",
+			"source_file": "src/components/Hero.astro",
+			"source_location": "L4",
+			"weight": 1.0,
+			"target_file": "$graphify-root$/src/i18n/strings.ts"
+		},
+		{
+			"source": "$graphify-root$_src_components_hero_astro",
+			"target": "$graphify-root$_src_i18n_strings_t",
+			"relation": "imports",
+			"context": "import",
+			"confidence": "EXTRACTED",
+			"source_file": "src/components/Hero.astro",
+			"source_location": "L4",
+			"weight": 1.0,
+			"target_file": "$graphify-root$/src/i18n/strings.ts"
+		},
+		{
+			"source": "$graphify-root$_src_components_hero_astro",
+			"target": "$graphify-root$_src_components_whatsappbutton_astro",
+			"relation": "imports_from",
+			"context": "import",
+			"confidence": "EXTRACTED",
+			"source_file": "src/components/Hero.astro",
+			"source_location": "L5",
+			"weight": 1.0,
+			"target_file": "$graphify-root$/src/components/WhatsAppButton.astro"
+		},
+		{
+			"source": "$graphify-root$_src_components_hero_astro",
+			"target": "astro_assets",
+			"relation": "imports_from",
+			"confidence": "EXTRACTED",
+			"source_file": "src/components/Hero.astro"
+		},
+		{
+			"source": "$graphify-root$_src_components_hero_astro",
+			"target": "$graphify-root$_src_assets_photos_estudio_interior_jpg",
+			"relation": "imports_from",
+			"confidence": "EXTRACTED",
+			"source_file": "src/components/Hero.astro",
+			"target_file": "$graphify-root$/src/assets/photos/estudio-interior.jpg"
+		},
+		{
+			"source": "$graphify-root$_src_components_hero_astro",
+			"target": "$graphify-root$_src_i18n_strings_ts",
+			"relation": "imports_from",
+			"confidence": "EXTRACTED",
+			"source_file": "src/components/Hero.astro",
+			"target_file": "$graphify-root$/src/i18n/strings.ts"
+		},
+		{
+			"source": "$graphify-root$_src_components_hero_astro",
+			"target": "$graphify-root$_src_components_whatsappbutton_astro",
+			"relation": "imports_from",
+			"confidence": "EXTRACTED",
+			"source_file": "src/components/Hero.astro",
+			"target_file": "$graphify-root$/src/components/WhatsAppButton.astro"
+		}
+	],
+	"raw_calls": [],
+	"parse_errors": { "first_error_line": 1, "multiline_error": true }
+}

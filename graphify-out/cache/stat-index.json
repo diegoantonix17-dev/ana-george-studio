@@ -1,0 +1,431 @@
+{
+	".claude/launch.json": {
+		"size": 191,
+		"mtime_ns": 1787504610707326400,
+		"indexed_at_ns": 1788750349128268600,
+		"word_count": 21,
+		"hashes": {
+			".claude/launch.json": "694ce31629daee87043f4fb94f5ce75345dc20e9d5203280f0895c6e4d0f2725"
+		}
+	},
+	".pa11yci.json": {
+		"size": 212,
+		"mtime_ns": 1787540985138839100,
+		"indexed_at_ns": 1788750349132345700,
+		"word_count": 19,
+		"hashes": {
+			".pa11yci.json": "d2de86281b79b7774c1f41979a340a215cab3642896dc7bd87784cc61de7d372"
+		}
+	},
+	".vscode/extensions.json": {
+		"size": 85,
+		"mtime_ns": 1787502855619252500,
+		"indexed_at_ns": 1788750349137615600,
+		"word_count": 6,
+		"hashes": {
+			".vscode/extensions.json": "1543ecea85ab4f392f39f50180d8329fe1713ef9a58432b5d3b34e5b82ce267d"
+		}
+	},
+	".vscode/launch.json": {
+		"size": 188,
+		"mtime_ns": 1787502855619252500,
+		"indexed_at_ns": 1788750349141118400,
+		"word_count": 19,
+		"hashes": {
+			".vscode/launch.json": "5b38b050cbd5d2037a350a28e9420ec3e9358222c40145335f6ba735793447fd"
+		}
+	},
+	"AGENTS.md": {
+		"size": 874,
+		"mtime_ns": 1787501998875186900,
+		"indexed_at_ns": 1788750362923390500,
+		"word_count": 79,
+		"hashes": {
+			"agents.md": "243f8c57b71fa215241088b7db2224e5fdd10c606d99033225b0974c32809b26"
+		}
+	},
+	"CLAUDE.md": {
+		"size": 874,
+		"mtime_ns": 1787501998875186900,
+		"indexed_at_ns": 1788750362929824900,
+		"word_count": 79,
+		"hashes": {
+			"claude.md": "832c3f491189d1f3b0278b97200446f1301acd6c9660000014fd208935d0e8da"
+		}
+	},
+	"README.md": {
+		"size": 1604,
+		"mtime_ns": 1787501998874175600,
+		"indexed_at_ns": 1788750362934520000,
+		"word_count": 219,
+		"hashes": {
+			"readme.md": "af6cda108a6813bdfc23b9d947d89f6351c32dd094d616db5e4e684e5bef31aa"
+		}
+	},
+	"astro.config.mjs": {
+		"size": 764,
+		"mtime_ns": 1787546444266756600,
+		"indexed_at_ns": 1788750308906764800,
+		"word_count": 98
+	},
+	"biome.json": {
+		"size": 754,
+		"mtime_ns": 1787503616681152100,
+		"indexed_at_ns": 1788750349143129000,
+		"word_count": 84,
+		"hashes": {
+			"biome.json": "11fabcb240ce636ae0e9b6597c4d887cfda018377905df5953df3a3cd33ac422"
+		}
+	},
+	"package.json": {
+		"size": 764,
+		"mtime_ns": 1787600427662813400,
+		"indexed_at_ns": 1788750349146012900,
+		"word_count": 71,
+		"hashes": {
+			"package.json": "39641aa19e35438bfa6b97afcf88a461bfacdda8a7040ded38deb276cba498e1"
+		}
+	},
+	"pnpm-workspace.yaml": {
+		"size": 47,
+		"mtime_ns": 1787502381768072200,
+		"indexed_at_ns": 1788750362937519100,
+		"word_count": 5,
+		"hashes": {
+			"pnpm-workspace.yaml": "ecc3acfad360d10ea2a1cdcdc2ce459949edce693b6b938ce8b057cf25455955"
+		}
+	},
+	"public/favicon.svg": {
+		"size": 343,
+		"mtime_ns": 1787502874297098700,
+		"indexed_at_ns": 1788750362946518700,
+		"word_count": 29,
+		"hashes": {
+			"public/favicon.svg": "9a40fe55eb786e7c0e4604e7bb056351cb1b39441f502f9087f36d500528ce4b"
+		}
+	},
+	"public/llms.txt": {
+		"size": 1828,
+		"mtime_ns": 1787546580703614600,
+		"indexed_at_ns": 1788750362940518800,
+		"word_count": 260,
+		"hashes": {
+			"public/llms.txt": "254809aaffe97f214a748b2ee88bdede880c05d814063bfdd1b8b10d22cb17e5"
+		}
+	},
+	"public/og/og-en.png": {
+		"size": 29945,
+		"mtime_ns": 1787546497903938600,
+		"indexed_at_ns": 1788750362949823700,
+		"word_count": 964,
+		"hashes": {
+			"public/og/og-en.png": "4e5b4373f97e93cf2ae7fd89747fc51198045b20dc92187d613479e2e662e2d2"
+		}
+	},
+	"public/og/og-es.png": {
+		"size": 29884,
+		"mtime_ns": 1787546497880196000,
+		"indexed_at_ns": 1788750362952809800,
+		"word_count": 1040,
+		"hashes": {
+			"public/og/og-es.png": "16cba6e694ec1d72869e0822c117d819a250baa938272636744c157896dd86ae"
+		}
+	},
+	"public/robots.txt": {
+		"size": 89,
+		"mtime_ns": 1787546563923091300,
+		"indexed_at_ns": 1788750362943518900,
+		"word_count": 6,
+		"hashes": {
+			"public/robots.txt": "df4ec3abbbfcacc3aeb488e15dfb7f066c52001c290fdf54ed7b1e1ed80a9660"
+		}
+	},
+	"scripts/seo-audit.mjs": {
+		"size": 2270,
+		"mtime_ns": 1787594443760241600,
+		"indexed_at_ns": 1788750308937743100,
+		"word_count": 299
+	},
+	"src/assets/photos/ceja-pestana-antes-despues.jpg": {
+		"size": 124271,
+		"mtime_ns": 1787176526964813400,
+		"indexed_at_ns": 1788750362955813100,
+		"word_count": 4533,
+		"hashes": {
+			"src/assets/photos/ceja-pestana-antes-despues.jpg": "4545723678c8fbe43f26135df40b53d62d2e696e5ccb0057b401748aa42527a5"
+		}
+	},
+	"src/assets/photos/cejas-antes-despues-bold-latin.jpg": {
+		"size": 98507,
+		"mtime_ns": 1787175070636091400,
+		"indexed_at_ns": 1788750362959812200,
+		"word_count": 3726,
+		"hashes": {
+			"src/assets/photos/cejas-antes-despues-bold-latin.jpg": "b4f679a8ac937618f6845ed7bd72e09919bc03c8af04bdce28ddae310036d0c8"
+		}
+	},
+	"src/assets/photos/cejas-proceso-tecnico.jpg": {
+		"size": 99322,
+		"mtime_ns": 1787175101136176500,
+		"indexed_at_ns": 1788750362963271400,
+		"word_count": 3675,
+		"hashes": {
+			"src/assets/photos/cejas-proceso-tecnico.jpg": "cee47b58782ff60ad855a200cf1e91e2b1784c9bb5e507289d7bac7f43fb01e0"
+		}
+	},
+	"src/assets/photos/estudio-interior.jpg": {
+		"size": 354629,
+		"mtime_ns": 1787504409374320600,
+		"indexed_at_ns": 1788750362966396700,
+		"word_count": 14343,
+		"hashes": {
+			"src/assets/photos/estudio-interior.jpg": "97a29614e7aa2faa470d10d5c3c5dfc5cddd999e26f597d71a3d031e824b3cf0"
+		}
+	},
+	"src/assets/photos/microblading-antes-despues-18-meses.jpg": {
+		"size": 90383,
+		"mtime_ns": 1787176386955520800,
+		"indexed_at_ns": 1788750362971396200,
+		"word_count": 3509,
+		"hashes": {
+			"src/assets/photos/microblading-antes-despues-18-meses.jpg": "2ff5d8af1abb49cacc61e2a55a74e53d1e9ceebba1606063e93ccb5ddfcff188"
+		}
+	},
+	"src/assets/photos/mosaico-15-estilos-pestanas.jpg": {
+		"size": 266951,
+		"mtime_ns": 1787176760391466400,
+		"indexed_at_ns": 1788750362974404700,
+		"word_count": 10768,
+		"hashes": {
+			"src/assets/photos/mosaico-15-estilos-pestanas.jpg": "278affe8201b25ce33d81f0fe33d38e3d799e29a71d6081dde18771c3baeef35"
+		}
+	},
+	"src/assets/photos/secuencia-4-pasos-cejas.jpg": {
+		"size": 98127,
+		"mtime_ns": 1787176477879708300,
+		"indexed_at_ns": 1788750362978748900,
+		"word_count": 3596,
+		"hashes": {
+			"src/assets/photos/secuencia-4-pasos-cejas.jpg": "a52c1b07e5d5397aacc0631299b6747c270165140122d1d85eedf8d22bc978e2"
+		}
+	},
+	"src/components/Footer.astro": {
+		"size": 1673,
+		"mtime_ns": 1787537211552570000,
+		"indexed_at_ns": 1788750349148536600,
+		"word_count": 153,
+		"hashes": {
+			"src/components/footer.astro": "7087a3b2fcc4fe95bc23dfd7b5904869131726d39de79650e64b2b0dcb5ed68b"
+		}
+	},
+	"src/components/Header.astro": {
+		"size": 1371,
+		"mtime_ns": 1787540526922282600,
+		"indexed_at_ns": 1788750349150041900,
+		"word_count": 142,
+		"hashes": {
+			"src/components/header.astro": "640383d0782102c59cde3027ef2e77b69ea6c1b26ec048dd88d4b89789c093b6"
+		}
+	},
+	"src/components/Hero.astro": {
+		"size": 1420,
+		"mtime_ns": 1787540831492836500,
+		"indexed_at_ns": 1788750349152626300,
+		"word_count": 144,
+		"hashes": {
+			"src/components/hero.astro": "01f2ec783b9ce69ad1ccb9186c92c57adcccd53bbc2dc1d533ede09542cc3bfb"
+		}
+	},
+	"src/components/LangSwitcher.astro": {
+		"size": 910,
+		"mtime_ns": 1787540495775566400,
+		"indexed_at_ns": 1788750349154632600,
+		"word_count": 136,
+		"hashes": {
+			"src/components/langswitcher.astro": "c98629bab6f18682794e83f506e7d2f2c3770427d2925845b36caadd15ec3459"
+		}
+	},
+	"src/components/ScrollReveal.astro": {
+		"size": 2664,
+		"mtime_ns": 1787541369019894900,
+		"indexed_at_ns": 1788750349156632500,
+		"word_count": 386,
+		"hashes": {
+			"src/components/scrollreveal.astro": "80028aaf193e165c9be1c138b80fb02fa0016950771d6c58fce1411c332f016f"
+		}
+	},
+	"src/components/ServicioCategoria.astro": {
+		"size": 3602,
+		"mtime_ns": 1787507650856866100,
+		"indexed_at_ns": 1788750349158139400,
+		"word_count": 341,
+		"hashes": {
+			"src/components/serviciocategoria.astro": "24d556c553f8661035833443eb690cc643437e34ba5163f65083f11d3f1f7375"
+		}
+	},
+	"src/components/Servicios.astro": {
+		"size": 732,
+		"mtime_ns": 1787540620380377400,
+		"indexed_at_ns": 1788750349160789500,
+		"word_count": 75,
+		"hashes": {
+			"src/components/servicios.astro": "4f3f8c4ec52457cc026458d81c58507272b20038f1c9b42414a68d987a7b463b"
+		}
+	},
+	"src/components/Testimonios.astro": {
+		"size": 1893,
+		"mtime_ns": 1787540916537545100,
+		"indexed_at_ns": 1788750349163842100,
+		"word_count": 202,
+		"hashes": {
+			"src/components/testimonios.astro": "38109e44e66022cb1ed53ef12781b29acb738d5f34d28bbfd0c64d7550c480e7"
+		}
+	},
+	"src/components/Ubicacion.astro": {
+		"size": 1230,
+		"mtime_ns": 1787540641102451900,
+		"indexed_at_ns": 1788750349165128400,
+		"word_count": 108,
+		"hashes": {
+			"src/components/ubicacion.astro": "0848a5c22a7519b06e531021126f5fad2175b27a5262946f0d5ddffca9eeb425"
+		}
+	},
+	"src/components/WhatsAppButton.astro": {
+		"size": 1836,
+		"mtime_ns": 1787537181091278800,
+		"indexed_at_ns": 1788750349167166500,
+		"word_count": 193,
+		"hashes": {
+			"src/components/whatsappbutton.astro": "b41a9549a0e1e2e05032a6ed7fc49ae0871472e80d8194319a6c2b076e9fa240"
+		}
+	},
+	"src/content.config.ts": {
+		"size": 952,
+		"mtime_ns": 1787503592716920700,
+		"indexed_at_ns": 1788750309036398300,
+		"word_count": 92
+	},
+	"src/content/servicios/cejas-mas.json": {
+		"size": 1085,
+		"mtime_ns": 1787507495077735800,
+		"indexed_at_ns": 1788750349169166600,
+		"word_count": 144,
+		"hashes": {
+			"src/content/servicios/cejas-mas.json": "7614b0348b2bd97babaf4a19dc36fbcb76379a8685e05564134c4f6a67868556"
+		}
+	},
+	"src/content/servicios/cejas-micropigmentacion.json": {
+		"size": 1090,
+		"mtime_ns": 1787507495077735800,
+		"indexed_at_ns": 1788750349171148600,
+		"word_count": 127,
+		"hashes": {
+			"src/content/servicios/cejas-micropigmentacion.json": "756ee577c6b6114cfe963ec1407a3304f4e99ea898fc0357486edb88ec2a916c"
+		}
+	},
+	"src/content/servicios/faciales.json": {
+		"size": 321,
+		"mtime_ns": 1787507710682613600,
+		"indexed_at_ns": 1788750349173152900,
+		"word_count": 44,
+		"hashes": {
+			"src/content/servicios/faciales.json": "98d568c91079f3388d31b8974d79a0f1cb6d17c5d1020863a2f033ffebbeca32"
+		}
+	},
+	"src/content/servicios/masajes.json": {
+		"size": 538,
+		"mtime_ns": 1787507710682613600,
+		"indexed_at_ns": 1788750349175490900,
+		"word_count": 74,
+		"hashes": {
+			"src/content/servicios/masajes.json": "7d8da72395434cc0e7f06446b36826050b5feab7d09c82ccd31e11a3c7c1c0c4"
+		}
+	},
+	"src/content/servicios/pestanas.json": {
+		"size": 2206,
+		"mtime_ns": 1787507710683612700,
+		"indexed_at_ns": 1788750349177508300,
+		"word_count": 291,
+		"hashes": {
+			"src/content/servicios/pestanas.json": "0f04fac4100fc388cbd7a742af2875bd53ff66f75f15df4e582b8b40556368ce"
+		}
+	},
+	"src/content/testimonios/testimonios.json": {
+		"size": 1232,
+		"mtime_ns": 1787536385373430100,
+		"indexed_at_ns": 1788750349179405100,
+		"word_count": 190,
+		"hashes": {
+			"src/content/testimonios/testimonios.json": "f8b3b3efb54a79108a3a5790e1abba627aa57d3f3b4921f20d74f977d8dee00d"
+		}
+	},
+	"src/data/analytics.ts": {
+		"size": 1215,
+		"mtime_ns": 1787866228783378300,
+		"indexed_at_ns": 1788750309055677100,
+		"word_count": 201
+	},
+	"src/data/negocio.ts": {
+		"size": 1872,
+		"mtime_ns": 1787537159927496100,
+		"indexed_at_ns": 1788750309058809100,
+		"word_count": 262
+	},
+	"src/i18n/photoAlts.ts": {
+		"size": 2364,
+		"mtime_ns": 1787507385426208000,
+		"indexed_at_ns": 1788750309060896000,
+		"word_count": 340
+	},
+	"src/i18n/strings.ts": {
+		"size": 4406,
+		"mtime_ns": 1787540472621133000,
+		"indexed_at_ns": 1788750309064971700,
+		"word_count": 488
+	},
+	"src/layouts/BaseLayout.astro": {
+		"size": 3913,
+		"mtime_ns": 1787600413524427500,
+		"indexed_at_ns": 1788750349182380100,
+		"word_count": 383,
+		"hashes": {
+			"src/layouts/baselayout.astro": "65f4e2cf29ab88c007aa12e480345a69379f0eb14613115a63ef6590abf6c54e"
+		}
+	},
+	"src/pages/404.astro": {
+		"size": 844,
+		"mtime_ns": 1787546554219494100,
+		"indexed_at_ns": 1788750349184452700,
+		"word_count": 89,
+		"hashes": {
+			"src/pages/404.astro": "dbbb05ae560222a1379b35527db50c6697bc54d472b5ff9d67812f192c61fad4"
+		}
+	},
+	"src/pages/en/index.astro": {
+		"size": 671,
+		"mtime_ns": 1787537273634118500,
+		"indexed_at_ns": 1788750349186459600,
+		"word_count": 67,
+		"hashes": {
+			"src/pages/en/index.astro": "f362ef46a6323dd6ea2c65d7ca0f8077b126d7f84ddd6cee3dec758c7c11604c"
+		}
+	},
+	"src/pages/index.astro": {
+		"size": 659,
+		"mtime_ns": 1787537251811171400,
+		"indexed_at_ns": 1788750349188437800,
+		"word_count": 68,
+		"hashes": {
+			"src/pages/index.astro": "f90313285bea99f2cf51082316921d9b95e8c3425ff30f2e1964a64ece6d384e"
+		}
+	},
+	"tsconfig.json": {
+		"size": 106,
+		"mtime_ns": 1787502855619252500,
+		"indexed_at_ns": 1788750349190461100,
+		"word_count": 9,
+		"hashes": {
+			"tsconfig.json": "975c74499db7924f45313014527fb70388cb60f89cfde8c1450f32011e835a80"
+		}
+	}
+}

@@ -1,0 +1,105 @@
+{
+	"nodes": [
+		{
+			"id": "public_favicon_icon",
+			"label": "Ana George Studio Favicon",
+			"file_type": "image",
+			"source_file": "public/favicon.svg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "public_favicon_background_rect",
+			"label": "Dark Teal Rounded Background Rectangle",
+			"file_type": "image",
+			"source_file": "public/favicon.svg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "public_favicon_ag_monogram",
+			"label": "AG Monogram Text",
+			"file_type": "image",
+			"source_file": "public/favicon.svg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "public_favicon_title",
+			"label": "Ana George Studio Title/Accessibility Label",
+			"file_type": "concept",
+			"source_file": "public/favicon.svg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		}
+	],
+	"edges": [
+		{
+			"source": "public_favicon_background_rect",
+			"target": "public_favicon_icon",
+			"relation": "conceptually_related_to",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "public/favicon.svg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "public_favicon_ag_monogram",
+			"target": "public_favicon_icon",
+			"relation": "conceptually_related_to",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "public/favicon.svg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "public_favicon_title",
+			"target": "public_favicon_icon",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "public/favicon.svg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "public_favicon_ag_monogram",
+			"target": "public_favicon_title",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "public/favicon.svg",
+			"source_location": null,
+			"weight": 1.0
+		}
+	],
+	"hyperedges": [
+		{
+			"id": "public_favicon_icon_composition",
+			"label": "Favicon Icon Composition",
+			"nodes": [
+				"public_favicon_background_rect",
+				"public_favicon_ag_monogram",
+				"public_favicon_title"
+			],
+			"relation": "form",
+			"confidence": "INFERRED",
+			"confidence_score": 0.85,
+			"source_file": "public/favicon.svg"
+		}
+	]
+}

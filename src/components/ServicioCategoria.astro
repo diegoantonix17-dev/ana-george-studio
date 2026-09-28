@@ -3,7 +3,7 @@ import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import { altFor } from "../i18n/photoAlts";
 import { type Locale, t } from "../i18n/strings";
-import WhatsAppButton from "./WhatsAppButton.astro";
+import AgendarButton from "./AgendarButton.astro";
 
 interface Props {
 	locale: Locale;
@@ -89,7 +89,7 @@ const hasRetoque = items.some((item) => item.precioRetoque !== undefined);
 				</table>
 			</div>
 
-			<WhatsAppButton locale={locale} class="mt-6" />
+			<AgendarButton locale={locale} class="mt-6" />
 		</div>
 
 		{

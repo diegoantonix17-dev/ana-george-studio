@@ -1,0 +1,364 @@
+{
+	"nodes": [
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"label": "Mosaic of 15 Eyelash Extension Styles",
+			"file_type": "image",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_clasicas",
+			"label": "Cl\u00e1sicas (Classic Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_efecto_rimel",
+			"label": "Efecto R\u00edmel (Mascara Effect Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_hibridas",
+			"label": "H\u00edbridas (Hybrid Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_cafes",
+			"label": "Caf\u00e9s (Brown/Coffee Tone Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_efecto_bratz",
+			"label": "Efecto Bratz (Bratz-Doll Effect Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_volumen_hawaiano",
+			"label": "Volumen Hawaiano (Hawaiian Volume Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_efecto_mojado",
+			"label": "Efecto Mojado (Wet-Look Effect Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_anime",
+			"label": "Anime (Anime-Style Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_volumen_griego",
+			"label": "Volumen Griego (Greek Volume Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_volumen",
+			"label": "Volumen (Volume Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_volumen_combinado",
+			"label": "Volumen Combinado (Combined Volume Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_efecto_aura",
+			"label": "Efecto Aura (Aura Effect Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_anime_con_volumen",
+			"label": "Anime con Volumen (Anime with Volume Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_mega_volumen",
+			"label": "Mega Volumen (Mega Volume Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_foxy",
+			"label": "Foxy (Fox-Eye Lash Style)",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "src_assets_photos_mosaico_15_estilos_pestanas_ana_george_studio_watermark",
+			"label": "Ana George Studio Watermark",
+			"file_type": "concept",
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		}
+	],
+	"edges": [
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_clasicas",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_efecto_rimel",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_hibridas",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_cafes",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_efecto_bratz",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_volumen_hawaiano",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_efecto_mojado",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_anime",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_volumen_griego",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_volumen",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_volumen_combinado",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_efecto_aura",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_anime_con_volumen",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_mega_volumen",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_foxy",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_ana_george_studio_watermark",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "src_assets_photos_mosaico_15_estilos_pestanas",
+			"target": "src_assets_photos_mosaico_15_estilos_pestanas_mega_volumen",
+			"relation": "conceptually_related_to",
+			"confidence": "INFERRED",
+			"confidence_score": 0.65,
+			"source_file": "src/assets/photos/mosaico-15-estilos-pestanas.jpg",
+			"source_location": null,
+			"weight": 0.65
+		}
+	],
+	"hyperedges": []
+}

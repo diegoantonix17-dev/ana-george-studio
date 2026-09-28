@@ -1,0 +1,17 @@
+{
+	"nodes": [
+		{
+			"id": "src_assets_photos_secuencia_4_pasos_cejas",
+			"label": "Eyebrow Treatment 4-Step Sequence Photo",
+			"file_type": "image",
+			"source_file": "src/assets/photos/secuencia-4-pasos-cejas.jpg",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		}
+	],
+	"edges": [],
+	"hyperedges": []
+}
