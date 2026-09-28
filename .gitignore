@@ -26,3 +26,8 @@ pnpm-debug.log*
 # Documento de planeación interno: queda sólo en local, nunca en el repo
 # público. Contiene precios, contacto y notas internas del negocio.
 blueprints/
+
+# Grafo de conocimiento de graphify: artefacto generado (cachés de AST y
+# semánticos, reporte, HTML). Se regenera con `graphify update .`, así que
+# versionarlo sólo mete ruido y conflictos.
+graphify-out/
